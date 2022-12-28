@@ -1,0 +1,78 @@
+body {
+  width: 100vh;
+  height: 200vh;
+  margin: 0 auto;
+  background-color: #4b4bd6;
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+h1,
+p {
+  margin: 20px auto;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#dropdown {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#degree {
+  width: unset;
+  display: inline;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  width: unset;
+  display: inline;
+  vertical-align: middle;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  width: 95%;
+  height: 40px;
+  margin: 15px auto;
+  background-color: #1a631a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+form {
+  width: 60vw;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 40px 50px;
+  background-color: #10104b;
+  border-radius: 8px;
+}
